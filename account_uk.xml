@@ -1128,7 +1128,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="name">Deposits and Cash</field>
             <field name="code">12</field>
             <field name="type" ref="liability_short_bank"/>
-            <field name="debit_type" ref="asset_cash"/>
             <field name="parent" ref="account_current_asset"/>
             <field name="closed" eval="True"/>
         </record>
@@ -1136,7 +1135,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="name">Current Accounts</field>
             <field name="code">120</field>
             <field name="type" ref="liability_short_bank"/>
-            <field name="debit_type" ref="asset_cash"/>
             <field name="parent" ref="bank_cash"/>
             <field name="closed" eval="True"/>
         </record>
@@ -1144,7 +1142,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="name">Deposit Accounts</field>
             <field name="code">121</field>
             <field name="type" ref="liability_short_bank"/>
-            <field name="debit_type" ref="asset_cash"/>
             <field name="parent" ref="bank_cash"/>
             <field name="closed" eval="True"/>
         </record>
@@ -1152,7 +1149,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="name">Building Society Accounts</field>
             <field name="code">122</field>
             <field name="type" ref="liability_short_bank"/>
-            <field name="debit_type" ref="asset_cash"/>
             <field name="parent" ref="bank_cash"/>
             <field name="closed" eval="True"/>
         </record>
