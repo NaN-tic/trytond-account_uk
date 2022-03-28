@@ -1159,7 +1159,6 @@ this repository contains the full copyright notices and license terms. -->
         <record model="account.account.template" id="cash">
             <field name="name">Cash</field>
             <field name="code">123</field>
-            <field name="type" ref="asset_cash"/>
             <field name="parent" ref="bank_cash"/>
             <field name="closed" eval="True"/>
         </record>
